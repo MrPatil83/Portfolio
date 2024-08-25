@@ -1,0 +1,29 @@
+[
+    {
+      "role": "FullStack Developer",
+      "organisation": "Imperio Railing Systems",
+      "startDate": "Apr, 2024",
+      "endDate": "Present",
+      "experiences": ["Worked on Createing Website", "Reduced load times by 100%"],
+      "imageSrc": "history/google.png"
+    },
+    {
+      "role": "Data Analyst",
+      "organisation": "NSE Cogencis",
+      "startDate": "May, 2023",
+      "endDate": "Apr, 2024",
+      "experiences": ["Worked on Mutual Fund Analysis", "Live Data Scrapping"],
+      "imageSrc": "history/microsoft.png"
+    },
+    {
+      "role": "Associate",
+      "organisation": "Kotak Mahindra Bank",
+      "startDate": "Jan, 2022",
+      "endDate": "Sep, 2022",
+      "experiences": [
+        "Worked on sales department",
+        "Credit Card "
+      ],
+      "imageSrc": "history/netflix.png"
+    }
+  ]

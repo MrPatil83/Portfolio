@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Imperio Railing Systems",
+      "imageSrc": "projects/project.png",
+      "description": "Designed and developed the official website for Imperio Railing Systems, showcasing their premium railing solutions with a modern, user-friendly interface.",
+      "skills": ["React", "Typescript","App Script","TailwindCSS"],
+      "demo": "https://www.imperiorailing.com/",
+      "source": "/"
+    },
+    {
+      "title": "Selective Systems",
+      "imageSrc": "projects/selectivesystemsproject.png",
+      "description": "Designed and developed the official website for Selective Systems, showcasing their premium windows solutions with a modern, user-friendly interface.",
+      "skills": ["React", "Express", "Node", "MongoDB","TailwindCSS"],
+      "demo": "https://selectivesystems.in/",
+      "source": "/"
+    },
+    {
+      "title": "Rise Alloys",
+      "imageSrc": "projects/Risealloys.png",
+      "description": "Crafted and launched the official website for Rise Alloys, highlighting their top-tier aluminum solutions through a sleek, intuitive, and user-centric design.",
+      "skills": ["React", "App Script","TailwindCSS","Motion"],
+      "demo": "https://risealloys.com/",
+      "source": "/"
+    }
+  ]
