@@ -1,111 +1,111 @@
-@import "../../vars.css";
+@REM @import "../../vars.css";
 
-.container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 49px;
-  z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
-}
+@REM .container {
+@REM   position: relative;
+@REM   display: flex;
+@REM   align-items: center;
+@REM   justify-content: space-between;
+@REM   margin-top: 49px;
+@REM   z-index: 1;
+@REM   margin-left: 10%;
+@REM   margin-right: 10%;
+@REM }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  color: var(--color-text);
-  z-index: 1;
-}
+@REM .content {
+@REM   display: flex;
+@REM   flex-direction: column;
+@REM   align-items: flex-start;
+@REM   color: var(--color-text);
+@REM   z-index: 1;
+@REM }
 
-.title {
-  font-size: 72px;
-  font-weight: 900;
-  margin-bottom: 33px;
-  font-family: var(--font-roboto);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
-  );
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-}
+@REM .title {
+@REM   font-size: 72px;
+@REM   font-weight: 900;
+@REM   margin-bottom: 33px;
+@REM   font-family: var(--font-roboto);
+@REM   background: linear-gradient(
+@REM     90deg,
+@REM     rgba(255, 255, 255, 1) 70%,
+@REM     rgba(255, 255, 255, 0) 120%
+@REM   );
+@REM   -webkit-text-fill-color: transparent;
+@REM   -webkit-background-clip: text;
+@REM }
 
-.description {
-  font-size: 30px;
-  font-family: var(--font-roboto);
-  margin-bottom: 52px;
-}
+@REM .description {
+@REM   font-size: 30px;
+@REM   font-family: var(--font-roboto);
+@REM   margin-bottom: 52px;
+@REM }
 
-.contactBtn {
-  text-decoration: none;
-  background-color: var(--color-primary);
-  color: var(--color-text);
-  border-radius: 100px;
-  font-size: 30px;
-  font-weight: 600;
-  padding: 17px 26px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-}
+@REM .contactBtn {
+@REM   text-decoration: none;
+@REM   background-color: var(--color-primary);
+@REM   color: var(--color-text);
+@REM   border-radius: 100px;
+@REM   font-size: 30px;
+@REM   font-weight: 600;
+@REM   padding: 17px 26px;
+@REM   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+@REM }
 
-.heroImg {
-  width: 50%;
-  z-index: 1;
+@REM .heroImg {
+@REM   width: 50%;
+@REM   z-index: 1;
 
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
+@REM   animation-name: floating;
+@REM   animation-duration: 3s;
+@REM   animation-iteration-count: infinite;
+@REM   animation-timing-function: ease-in-out;
+@REM }
 
-@keyframes floating {
-  0% {
-    transform: translate(0, 0px);
-  }
-  50% {
-    transform: translate(0, 10px);
-  }
-  100% {
-    transform: translate(0, -0px);
-  }
-}
+@REM @keyframes floating {
+@REM   0% {
+@REM     transform: translate(0, 0px);
+@REM   }
+@REM   50% {
+@REM     transform: translate(0, 10px);
+@REM   }
+@REM   100% {
+@REM     transform: translate(0, -0px);
+@REM   }
+@REM }
 
-.topBlur {
-  position: absolute;
-  width: 50vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 350px;
-  top: -128px;
-  left: -10vw;
-  border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
-  filter: blur(100px);
-  z-index: 0;
-}
+@REM .topBlur {
+@REM   position: absolute;
+@REM   width: 50vw;
+@REM   height: 50vw;
+@REM   min-width: 350px;
+@REM   min-width: 350px;
+@REM   top: -128px;
+@REM   left: -10vw;
+@REM   border-radius: 764px;
+@REM   background: rgba(25, 55, 109, 0.7);
+@REM   filter: blur(100px);
+@REM   z-index: 0;
+@REM }
 
-.bottomBlur {
-  position: absolute;
-  width: 70vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 250px;
-  top: 246px;
-  right: -25vw;
-  border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
-  filter: blur(100px);
-  z-index: 0;
-}
+@REM .bottomBlur {
+@REM   position: absolute;
+@REM   width: 70vw;
+@REM   height: 50vw;
+@REM   min-width: 350px;
+@REM   min-width: 250px;
+@REM   top: 246px;
+@REM   right: -25vw;
+@REM   border-radius: 764px;
+@REM   background: rgba(25, 55, 109, 0.7);
+@REM   filter: blur(100px);
+@REM   z-index: 0;
+@REM }
 
-@media screen and (max-width: 830px) {
-  .container {
-    flex-direction: column-reverse;
-  }
+@REM @media screen and (max-width: 830px) {
+@REM   .container {
+@REM     flex-direction: column-reverse;
+@REM   }
 
-  .content {
-    align-items: center;
-  }
-}
+@REM   .content {
+@REM     align-items: center;
+@REM   }
+@REM }

@@ -1,0 +1,20 @@
+/* animations.css */
+@keyframes expandBg {
+  from {
+    background-size: 0% 100%;
+  }
+  to {
+    background-size: 100% 100%;
+  }
+}
+
+.bg-expand-on-hover {
+  background-image: linear-gradient(to right, rgba(165, 215, 232, 0.26), transparent);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.4s ease-in-out;
+}
+
+.hover\:bg-expand-on-hover:hover {
+  background-size: 100% 100%;
+}

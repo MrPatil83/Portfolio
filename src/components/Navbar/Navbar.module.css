@@ -1,86 +1,86 @@
-@import "../../vars.css";
+@REM @import "../../vars.css";
 
-.navbar {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 61px;
-  z-index: 2;
-  margin: 0 10%;
-}
+@REM .navbar {
+@REM   position: relative;
+@REM   display: flex;
+@REM   align-items: center;
+@REM   justify-content: space-between;
+@REM   padding-top: 61px;
+@REM   z-index: 2;
+@REM   margin: 0 10%;
+@REM }
 
-.title {
-  font-size: 43px;
-  font-weight: 600;
-  text-decoration: none;
-  /* color: var(--color-text); */
-  background  : linear-gradient(90deg, #0059FF, #FF6E00);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-
-.menuBtn {
-  display: none;
-}
-
-.menu {
-  display: flex;
-}
-
-.menuItems {
-  display: flex;
-  gap: 47px;
-  list-style: none;
-}
-
-.menuItems a {
-  font-size: 25px;
-  color: var(--color-text);
-  text-decoration: none;
-}
+@REM .title {
+@REM   font-size: 43px;
+@REM   font-weight: 600;
+@REM   text-decoration: none;
+@REM   /* color: var(--color-text); */
+@REM   background  : linear-gradient(90deg, #0059FF, #FF6E00);
+@REM   -webkit-background-clip: text;
+@REM   -webkit-text-fill-color: transparent;
+@REM }
 
 
-@media screen and (max-width: 830px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+@REM .menuBtn {
+@REM   display: none;
+@REM }
 
-  .menu {
-    position: absolute;
-    right: 0;
-    margin-right: 10%;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 11px;
-    z-index: 3;
-  }
+@REM .menu {
+@REM   display: flex;
+@REM }
 
-  .menuBtn {
-    display: block;
-    cursor: pointer;
-  }
+@REM .menuItems {
+@REM   display: flex;
+@REM   gap: 47px;
+@REM   list-style: none;
+@REM }
 
-  .menuItems {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    gap: 13px;
-    border-radius: 10px;
-    background: rgb(25, 55, 109);
-    background: linear-gradient(
-      0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
-    );
-    padding: 24px 33px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-  }
+@REM .menuItems a {
+@REM   font-size: 25px;
+@REM   color: var(--color-text);
+@REM   text-decoration: none;
+@REM }
 
-  .menuOpen {
-    display: flex;
-    z-index: 1;
-  }
-}
+
+@REM @media screen and (max-width: 830px) {
+@REM   .navbar {
+@REM     flex-direction: column;
+@REM     align-items: flex-start;
+@REM   }
+
+@REM   .menu {
+@REM     position: absolute;
+@REM     right: 0;
+@REM     margin-right: 10%;
+@REM     flex-direction: column;
+@REM     align-items: flex-end;
+@REM     gap: 11px;
+@REM     z-index: 3;
+@REM   }
+
+@REM   .menuBtn {
+@REM     display: block;
+@REM     cursor: pointer;
+@REM   }
+
+@REM   .menuItems {
+@REM     display: none;
+@REM     flex-direction: column;
+@REM     align-items: center;
+@REM     gap: 13px;
+@REM     border-radius: 10px;
+@REM     background: rgb(25, 55, 109);
+@REM     background: linear-gradient(
+@REM       0deg,
+@REM       rgba(25, 55, 109, 0.2) 0%,
+@REM       rgba(25, 55, 109, 1) 100%
+@REM     );
+@REM     padding: 24px 33px;
+@REM     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+@REM   }
+
+@REM   .menuOpen {
+@REM     display: flex;
+@REM     z-index: 1;
+@REM   }
+@REM }

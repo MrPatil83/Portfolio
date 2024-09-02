@@ -1,29 +1,29 @@
-@import "../../vars.css";
+@REM @import "../../vars.css";
 
-.container {
-  margin-top: 76px;
-  color: var(--color-text);
-  margin-left: 10%;
-  margin-right: 10%;
+@REM .container {
+@REM   margin-top: 76px;
+@REM   color: var(--color-text);
+@REM   margin-left: 10%;
+@REM   margin-right: 10%;
  
-}
+@REM }
 
-.title {
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
+@REM .title {
+@REM   font-size: 35px;
+@REM   font-weight: 700;
+@REM   letter-spacing: 1.75px;
+@REM   text-transform: uppercase;
   
-}
+@REM }
 
-.projects {
-  margin-top: 37px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  width: 100%;
+@REM .projects {
+@REM   margin-top: 37px;
+@REM   display: flex;
+@REM   flex-direction: row;
+@REM   flex-wrap: wrap;
+@REM   align-items: center;
+@REM   justify-content: center;
+@REM   gap: 15px;
+@REM   width: 100%;
   
-}
+@REM }

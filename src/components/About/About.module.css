@@ -1,92 +1,92 @@
-@import "../../vars.css";
+@REM @import "../../vars.css";
 
-.container {
-  position: relative;
-  background-color: rgba(12, 12, 12, 0.6);
-  border-radius: 15px;
-  padding: 73px;
-  margin-top: 129px;
-  z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
-}
+@REM .container {
+@REM   position: relative;
+@REM   background-color: rgba(12, 12, 12, 0.6);
+@REM   border-radius: 15px;
+@REM   padding: 73px;
+@REM   margin-top: 129px;
+@REM   z-index: 1;
+@REM   margin-left: 10%;
+@REM   margin-right: 10%;
+@REM }
 
-.title {
-  color: var(--color-text);
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
-}
+@REM .title {
+@REM   color: var(--color-text);
+@REM   font-size: 35px;
+@REM   font-weight: 700;
+@REM   letter-spacing: 1.75px;
+@REM   text-transform: uppercase;
+@REM }
 
-.content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+@REM .content {
+@REM   display: flex;
+@REM   flex-direction: row;
+@REM   align-items: center;
+@REM }
 
-.aboutImage {
-  width: 35%;
-}
+@REM .aboutImage {
+@REM   width: 35%;
+@REM }
 
-.aboutItems {
-  color: var(--color-text);
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
+@REM .aboutItems {
+@REM   color: var(--color-text);
+@REM   display: flex;
+@REM   flex-direction: column;
+@REM   gap: 50px;
+@REM }
 
-.aboutItem {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border-radius: 20px;
-  list-style: none;
-  padding: 25px;
-  background-image: linear-gradient(
-    90deg,
-    rgba(165, 215, 232, 0.42) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  background-size: 0 100%;
-  background-repeat: no-repeat;
-  transition: 0.4s;
-}
+@REM .aboutItem {
+@REM   display: flex;
+@REM   flex-direction: row;
+@REM   align-items: center;
+@REM   border-radius: 20px;
+@REM   list-style: none;
+@REM   padding: 25px;
+@REM   background-image: linear-gradient(
+@REM     90deg,
+@REM     rgba(165, 215, 232, 0.42) 0%,
+@REM     rgba(255, 255, 255, 0) 100%
+@REM   );
+@REM   background-size: 0 100%;
+@REM   background-repeat: no-repeat;
+@REM   transition: 0.4s;
+@REM }
 
-.aboutItem:hover {
-  background-size: 100% 100%;
-}
+@REM .aboutItem:hover {
+@REM   background-size: 100% 100%;
+@REM }
 
-.aboutItem h3 {
-  font-size: 25px;
-  font-weight: 600;
-}
+@REM .aboutItem h3 {
+@REM   font-size: 25px;
+@REM   font-weight: 600;
+@REM }
 
-.aboutItem p {
-  font-size: 25px;
-}
+@REM .aboutItem p {
+@REM   font-size: 25px;
+@REM }
 
-@media screen and (max-width: 830px) {
-  .container {
-    background-color: transparent;
-    padding-left: 0;
-    padding-right: 0;
-  }
+@REM @media screen and (max-width: 830px) {
+@REM   .container {
+@REM     background-color: transparent;
+@REM     padding-left: 0;
+@REM     padding-right: 0;
+@REM   }
 
-  .content {
-    flex-direction: column;
-  }
+@REM   .content {
+@REM     flex-direction: column;
+@REM   }
 
-  .aboutImage {
-    display: none;
-  }
+@REM   .aboutImage {
+@REM     display: none;
+@REM   }
 
-  .aboutItems {
-    margin-top: 29px;
-  }
+@REM   .aboutItems {
+@REM     margin-top: 29px;
+@REM   }
 
-  .aboutItem {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
+@REM   .aboutItem {
+@REM     padding-left: 0;
+@REM     padding-right: 0;
+@REM   }
+@REM }
