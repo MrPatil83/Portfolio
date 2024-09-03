@@ -1,5 +1,5 @@
 // import React from "react";
-import ProjectCard from "./ProjectCard"; // Fixed typo here
+import ProjectsCard from "./ProjectsCard"
 import { motion } from 'framer-motion';
 import { FadeRight } from "../../Animation";
 
@@ -84,7 +84,7 @@ const ProjectsPage = () => {
       </motion.h2>
       <div className="mb-10 grid gap-8 md:grid-cols-2 lg:grid-cols-2 md:mx-14 xl:grid-cols-3 xl:mx-[4rem] xl:p-4 xl:mb-0">
         {projects.map((project, index) => (
-          <ProjectCard key={index} {...project} />
+          <ProjectsCard key={index} {...project} />
         ))}
       </div>
     </>
