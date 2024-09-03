@@ -93,6 +93,7 @@ const ProjectCard = ({ imgSrc, title, description, skills, demoLink, sourceLink 
         className="bg-[#05062D] rounded-2xl w-full h-full transition-transform duration-500 ease-out"
         style={{ transform }}
       >
+       
         {/* Project Image */}
         <img src={imgSrc} alt={title} className=" w-[19.3rem] md:w-[19rem] md:h-[12rem]  lg:w-[25rem] lg:h-[15rem] object-cover mx-auto py-2 rounded-bl-full  mb-4" />
 

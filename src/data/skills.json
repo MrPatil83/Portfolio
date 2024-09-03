@@ -42,5 +42,9 @@
     {
       "title": "Typescript",
       "imageSrc": "skills/typescript.png"
+    },
+    {
+      "title": "Tailwind",
+      "imageSrc": "skills/Tailwind.png"
     }
   ]

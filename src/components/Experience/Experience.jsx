@@ -59,12 +59,12 @@ import {FadeRight,FadeUp} from "../../Animation";
 
 export const Experience = () => {
   return (
-    <section className="text-white mt-20 mx-10 xl:px-14" id="experience">
+    <section className="text-white mt-20 mx-1 xl:px-14" id="experience">
         <motion.h2
       variants={FadeRight(0.3)}
       initial="hidden"
       whileInView={"visible"}
-       className="text-white text-3xl mx-16 xl:text-4xl font-bold tracking-wide uppercase flex justify-start xl:mx-12 md:mb-4 lg:text-3xl">
+       className="text-white text-4xl mx-auto px-20 md:mx-[6rem] xl:text-4xl font-bold tracking-wide uppercase flex justify-start xl:mx-12 md:mb-4 lg:text-3xl">
         EXPRIANCE
       </motion.h2>
       <div className=" mx-auto grid lg:grid-cols-2 items-center">
@@ -79,7 +79,7 @@ export const Experience = () => {
                 whileHover={{ scale: 1.3 }} // This adds the scaling effect on hover
                 src={getImageUrl(skill.imageSrc)}
                 alt={skill.title}
-                className=" mx-auto h-[2.5rem] w-[2.5rem] md:h-[2.3rem] md:w-[2.3rem] lg:h-[3rem] lg:w-[3rem] xl:w-[3.5rem] xl:h-[3.5rem] object-contain shadow-2xl cursor-pointer transition-transform duration-400 ease-linear" // Remove hover:scale-110 since it's handled by Framer Motion
+                className=" mx-auto h-[2.8rem] w-[2.8rem] md:h-[2.3rem] md:w-[2.3rem] lg:h-[3rem] lg:w-[3rem] xl:w-[3.5rem] xl:h-[3.5rem] object-contain shadow-2xl cursor-pointer transition-transform duration-400 ease-linear" // Remove hover:scale-110 since it's handled by Framer Motion
               ></motion.img>
               </div>
               <motion.p
@@ -94,7 +94,7 @@ export const Experience = () => {
          variants={FadeUp(0.5)}
          initial="hidden"
          whileInView={"visible"}
-         className=" w-[100%] md:w-[76%] md:py-4 mx-auto lg:w-full xl:w-[85%] grid grid-cols-1 gap-6 mb-4">
+         className=" w-[100%] mx-2 md:w-[76%] md:py-4 md:mx-[6rem] lg:w-full xl:w-[85%] grid grid-cols-1 gap-6 mb-4">
           {history.map((historyItem, id) => (
             <li
               key={id}
