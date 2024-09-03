@@ -90,7 +90,7 @@ export const Navbar = () => {
             md:mt-0 
             md:static 
             rounded-lg 
-            shadow-md 
+           
             ${menuOpen ? 'bg-custom-gradient' : 'bg-transparent'}
             md:bg-transparent
           `}
