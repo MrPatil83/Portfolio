@@ -57,9 +57,10 @@ export const Hero = () => {
         >
           Contact Me
         </a>
+
       </div>
       <motion.img
-      variants={FadeLeft(0.9)}
+      variants={FadeLeft(0.5)}
       initial="hidden"
       whileInView={"visible"}
         src={getImageUrl("hero/heroImage.png")}

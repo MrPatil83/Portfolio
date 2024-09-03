@@ -54,47 +54,65 @@
 import skills from "../../data/skills.json";
 import history from "../../data/history.json";
 import { getImageUrl } from "../../utils";
+import { motion } from 'framer-motion';
+import {FadeRight,FadeUp} from "../../Animation";
 
 export const Experience = () => {
   return (
-    <section className="text-white mt-20 mx-10" id="experience">
-      <h2 className="text-white text-3xl font-bold tracking-wide uppercase">
-        Experience
-      </h2>
-      <div className="flex flex-row justify-evenly mt-3.5 flex-wrap lg:flex-nowrap">
-        <div className="w-full lg:w-[45%] flex flex-wrap gap-9 justify-center lg:justify-start">
+    <section className="text-white mt-20 mx-10 xl:px-14" id="experience">
+        <motion.h2
+      variants={FadeRight(0.3)}
+      initial="hidden"
+      whileInView={"visible"}
+       className="text-white text-3xl mx-16 xl:text-4xl font-bold tracking-wide uppercase flex justify-start xl:mx-12 md:mb-4 lg:text-3xl">
+        EXPRIANCE
+      </motion.h2>
+      <div className=" mx-auto grid lg:grid-cols-2 items-center">
+        <div className=" py-8 mb-10 lg:mb-4 lg:h-[25rem] lg:w-[20rem] lg:-mt-[6rem] xl:h-[31rem] xl:w-[24rem] grid grid-cols-3 gap-4 -px-14 md:grid-cols-4 md:gap-2 lg:grid-cols-3 lg:gap-9 mx-10">
           {skills.map((skill, id) => (
-            <div key={id} className="flex flex-col items-center gap-2.5">
+            <div key={id} className="flex flex-col items-center gap-3">
               <div className="bg-gray-700 rounded-full flex items-center justify-center w-30 h-30">
-                <img
-                  src={getImageUrl(skill.imageSrc)}
-                  alt={skill.title}
-                  className="w-12 h-12 object-contain"
-                />
+              <motion.img
+                variants={FadeUp(0.3)}
+                initial="hidden"
+                whileInView={"visible"}
+                whileHover={{ scale: 1.3 }} // This adds the scaling effect on hover
+                src={getImageUrl(skill.imageSrc)}
+                alt={skill.title}
+                className=" mx-auto h-[2.5rem] w-[2.5rem] md:h-[2.3rem] md:w-[2.3rem] lg:h-[3rem] lg:w-[3rem] xl:w-[3.5rem] xl:h-[3.5rem] object-contain shadow-2xl cursor-pointer transition-transform duration-400 ease-linear" // Remove hover:scale-110 since it's handled by Framer Motion
+              ></motion.img>
               </div>
-              <p className="text-xl font-medium">{skill.title}</p>
+              <motion.p
+               variants={FadeRight(0.5)}
+               initial="hidden"
+               whileInView={"visible"}
+               className=" text-[0.800rem] md:text-sm lg:text-base xl:text-xl raleway">{skill.title}</motion.p>
             </div>
           ))}
         </div>
-        <ul className="w-full lg:w-[45%] flex flex-col gap-10">
+        <motion.ul
+         variants={FadeUp(0.5)}
+         initial="hidden"
+         whileInView={"visible"}
+         className=" w-[100%] md:w-[76%] md:py-4 mx-auto lg:w-full xl:w-[85%] grid grid-cols-1 gap-6 mb-4">
           {history.map((historyItem, id) => (
             <li
               key={id}
-              className="flex flex-row items-center gap-4 bg-gradient-to-r from-[#19376d] to-transparent rounded-lg p-6"
+              className="flex flex-row items-center gap-4 bg-gradient-to-r from-[#19376d] py-2 to-transparent rounded-ee-full h-auto my-auto lg:p-4 xl:p-6"
             >
               <img
                 src={getImageUrl(historyItem.imageSrc)}
                 alt={`${historyItem.organisation} Logo`}
-                className="w-12 h-12 object-contain"
+                className=" h-[2.5rem] w-[2.5rem] mx-2 md:h-[2.3rem] md:w-[2.3rem] md:mx-4 lg:h-[3rem] lg:w-[3rem] xl:w-[4rem] xl:h-[4rem] object-contain hover:scale-125 cursor-pointer transition-transform duration-500"
               />
-              <div className="font-roboto">
-                <h3 className="text-2xl font-medium">
+              <div className="poppins-regular">
+                <h3 className=" text-sm md:text-base lg:text-xl xl:text-2xl font-medium">
                   {`${historyItem.role}, ${historyItem.organisation}`}
                 </h3>
-                <p className="text-lg font-light">
+                <p className=" text-slate-400 text-[0.800rem] md:text-[0.750rem] lg:text-sm raleway">
                   {`${historyItem.startDate} - ${historyItem.endDate}`}
                 </p>
-                <ul className="mt-1.5 list-disc list-inside text-xl ml-4">
+                <ul className="mt-1.5 md:list-disc text-[0.700rem] raleway md:list-inside md:text-sm text-slate-300 lg:base xl:text-xl md:ml-4">
                   {historyItem.experiences.map((experience, idx) => (
                     <li key={idx}>{experience}</li>
                   ))}
@@ -102,7 +120,7 @@ export const Experience = () => {
               </div>
             </li>
           ))}
-        </ul>
+        </motion.ul>
       </div>
     </section>
   );
