@@ -98,7 +98,7 @@ export const Navbar = () => {
         >
           <li className="relative">
             <a className="text-2xl md:text-lg text-white group" href="#about">
-              About Us
+              About Me
               <span className="absolute left-0 bottom-0 w-full h-[2px] bg-zinc-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-700 ease-in-out origin-left"></span>
             </a>
           </li>
@@ -116,7 +116,7 @@ export const Navbar = () => {
           </li>
           <li className="relative">
             <a className="text-2xl md:text-lg text-white group" href="#contact">
-              Contact Us
+              Contact 
               <span className="absolute left-0 bottom-0 w-full h-[2px] bg-zinc-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-700 ease-in-out origin-left"></span>
             </a>
           </li>

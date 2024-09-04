@@ -64,8 +64,8 @@ export const Experience = () => {
       variants={FadeRight(0.3)}
       initial="hidden"
       whileInView={"visible"}
-       className="text-white text-4xl mx-auto px-20 md:mx-[6rem] xl:text-4xl font-bold tracking-wide uppercase flex justify-start xl:mx-12 md:mb-4 lg:text-3xl">
-        EXPRIANCE
+       className="text-white text-4xl mx-auto px-20 md:mx-[6rem] uppercase xl:text-4xl font-bold tracking-wide uppercase flex justify-start xl:mx-12 md:mb-4 lg:text-3xl">
+        Experience
       </motion.h2>
       <div className=" mx-auto grid lg:grid-cols-2 items-center">
         <div className=" py-8 mb-10 lg:mb-4 lg:h-[25rem] lg:w-[20rem] lg:-mt-[6rem] xl:h-[31rem] xl:w-[24rem] grid grid-cols-3 gap-4 -px-14 md:grid-cols-4 md:gap-2 lg:grid-cols-3 lg:gap-9 mx-10">

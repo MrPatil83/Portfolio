@@ -60,7 +60,7 @@ import {FadeUp,FadeLeft,FadeRight} from "../../Animation";
 export const About = () => {
   return (
     <section
-      className="relative bg-black/60  rounded-3xl py-18 mt-32 z-10 mx-10 "
+      className="relative bg-black/60  rounded-3xl py-18 mt-32 z-10 mx-10 mb-4 "
       id="about"
     >
       <motion.h2
@@ -68,7 +68,7 @@ export const About = () => {
       initial="hidden"
       whileInView={"visible"}
        className="text-white text-4xl font-bold tracking-wide uppercase flex justify-start p-10">
-        About US
+        About ME
       </motion.h2>
       <div className="grid xl:grid-cols-3 gap-4 items-center">
         <motion.img
@@ -87,9 +87,9 @@ export const About = () => {
       <li className="relative flex flex-row items-center rounded-lg list-none p-6 bg-expand-on-hover hover:bg-expand-on-hover">
         <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
         <div className="ml-4">
-          <h3 className="text-base poppins-regular mx-auto font-semibold md:text-[1.35rem] lg:text-[1.60rem] xl:text-2xl xl-w-[14rem]">Frontend Developer</h3>
-          <p className="text-sm raleway mx-auto md:text-base lg:text-[1.10rem] xl:text-xl xl:w-[40rem]">
-            I'm a frontend developer with experience in building responsive and optimized sites.
+          <h3 className="text-base poppins-regular mx-auto md:text-[1.35rem] lg:text-[1.60rem] xl:text-3xl xl-w-[14rem]">Frontend Developer</h3>
+          <p className="text-[0.700rem] raleway mx-auto md:text-base lg:text-[1.10rem] xl:text-lg text-slate-300 xl:w-[40rem]">
+            Experienced Frontend Developer specializing in creating responsive, optimized web solutions. Skilled in building user-friendly interfaces and enhancing performance for seamless cross-device experiences.
           </p>
         </div>
       </li>
@@ -97,9 +97,9 @@ export const About = () => {
       <li className="relative flex flex-row items-center rounded-lg list-none p-6 bg-expand-on-hover hover:bg-expand-on-hover">
         <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
         <div className="ml-4">
-          <h3 className="text-base poppins-regular mx-auto md:text-[1.35rem] lg:text-[1.60rem] font-semibold">Backend Developer</h3>
-          <p className="text-sm raleway mx-auto  md:text-base lg:text-[1.10rem] xl:text-xl xl:w-[40rem]">
-            I have experience developing fast and optimized back-end systems and APIs.
+          <h3 className="text-base poppins-regular mx-auto md:text-[1.35rem] lg:text-[1.60rem] xl:text-3xl">Backend Developer</h3>
+          <p className="text-[0.700rem] raleway mx-auto  md:text-base lg:text-[1.10rem] xl:text-lg text-slate-300 xl:w-[40rem]">
+          Experienced in developing high-performance, optimized back-end systems and APIs using Node.js and Express, ensuring robust functionality and seamless integration. Proficient in creating scalable solutions that drive efficiency and reliability.
           </p>
         </div>
       </li>
@@ -107,9 +107,9 @@ export const About = () => {
       <li className="relative flex flex-row items-center rounded-lg list-none p-6 bg-expand-on-hover hover:bg-expand-on-hover">
         <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
         <div className="ml-4">
-          <h3 className="text-base poppins-regular mx-auto md:text-[1.35rem] lg:text-[1.60rem] font-semibold">UI Designer</h3>
-          <p className="text-sm raleway mx-auto  md:text-base lg:text-[1.10rem] xl:text-xl xl:w-[40rem]">
-            I have designed multiple landing pages and have created design systems as well.
+          <h3 className="text-base poppins-regular mx-auto md:text-[1.35rem] lg:text-[1.60rem] xl:text-3xl">UI Designer</h3>
+          <p className="text-[0.700rem] raleway mx-auto  md:text-base lg:text-[1.10rem] xl:text-lg text-slate-300 xl:w-[40rem]">
+          Experienced in designing impactful landing pages and creating comprehensive design systems. Skilled in crafting cohesive visual identities that enhance user experience and brand consistency.
           </p>
         </div>
       </li>

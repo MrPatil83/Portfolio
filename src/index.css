@@ -125,7 +125,7 @@ html {
 .raleway {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight:400;
+  font-weight:300;
   font-style: normal;
 }
 @layer utilities {

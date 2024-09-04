@@ -134,16 +134,16 @@ import {FadeRight} from "../../Animation";
 
 const Contact = () => {
   return (
-<div className=" bg-black h-[17rem] lg:h-[60rem] xl:h-[20rem]">
+<div className=" bg-black h-[20rem] lg:h-[60rem] xl:h-[20rem]">
 <motion.h2
       variants={FadeRight(0.3)}
       initial="hidden"
       whileInView={"visible"}
-       className="text-white text-2xl px-24 md:text-4xl font-bold tracking-wide uppercase flex justify-start p-10 md:mx-14" id="contact">
-        Contact US
+       className="text-slate-100 mx-auto text-2xl px-[7.7rem] md:text-4xl font-bold tracking-wide uppercase flex justify-start p-10 md:mx-14" id="contact">
+        Contact 
       </motion.h2>
-      <p className=" text-xl mx-auto px-20 md:text-2xl poppins-regular text-white tracking-wide md:mx-36 mt-2">Feel free to reach out!</p>
-      <p className=" text-base mx-auto px-20 md:text-2xl poppins-regular text-white tracking-wide md:mx-36 mt-2"><a href="+918356080112" ><span>Contact :</span>+918356080112</a></p>
+      <p className=" text-base mx-auto px-[3.8rem] md:text-2xl poppins-regular text-slate-300 tracking-wide md:mx-36 mt-2">Let's team up for exciting projects and opportunities!</p>
+      <p className=" text-base mx-auto px-20 md:text-2xl poppins-regular text-slate-300 tracking-wide md:mx-36 mt-2"><a href="+918356080112" ><span>Contact :</span>+918356080112</a></p>
 
     <div className="card m-4 mx-20 w-[10rem] lg:mx-[14rem] md:m-3 rounded-3xl transition-transform duration-700">
     <span>Social</span>

@@ -55,7 +55,7 @@ export const Hero = () => {
           href="mailto:avinashpatil142001@gmail.com"
           className=" hover:scale-110 transition-transform duration-700 hover:bg-blue-900 border text-white hover:text-stone-200 flex  rounded-full  poppins-regular py-2 px-3 shadow-md md:text-sm md:py-[0.6rem] lg:text-base lg:py-[0.6rem] xl:text-xl"
         >
-          Contact Me
+          Let's Connect!
         </a>
 
       </div>
