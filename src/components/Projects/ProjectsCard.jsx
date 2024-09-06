@@ -211,7 +211,7 @@ const ProjectCard = ({ imgSrc, title, description, skills, demoLink, sourceLink 
             rel="noopener noreferrer"
             className="bg-blue-500 text-white px-4 py-2 rounded raleway hover:bg-blue-600 ml-4 hover:scale-125 hover:rounded-3xl transition-transform duration-700"
           >
-            Demo
+            Live
           </a>
           <a
             href={sourceLink}
@@ -219,7 +219,7 @@ const ProjectCard = ({ imgSrc, title, description, skills, demoLink, sourceLink 
             rel="noopener noreferrer"
             className="bg-gray-800 text-white px-4 py-2 rounded raleway hover:bg-gray-900 mr-4 hover:scale-125 hover:rounded-3xl transition-transform duration-70"
           >
-            Source
+            Code
           </a>
         </div>
       </div>
