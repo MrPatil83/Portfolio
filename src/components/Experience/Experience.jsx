@@ -60,13 +60,16 @@ import {FadeRight,FadeUp} from "../../Animation";
 export const Experience = () => {
   return (
     <section className="text-white mt-20 mx-1 xl:px-14" id="experience">
+      <div className=" flex gap-[20rem]">
         <motion.h2
       variants={FadeRight(0.3)}
       initial="hidden"
       whileInView={"visible"}
-       className="text-white text-4xl mx-auto px-20 md:mx-[6rem] uppercase xl:text-4xl font-bold tracking-wide uppercase flex justify-start xl:mx-12 md:mb-4 lg:text-3xl">
-        Experience
+       className="text-white text-4xl mx-auto px-20 lg:mx-[4rem]  xl:text-4xl font-bold tracking-wide uppercase flex justify-start xl:mx-12 md:mb-4 lg:text-3xl">
+        Skills
       </motion.h2>
+      
+      </div>
       <div className=" mx-auto grid lg:grid-cols-2 items-center">
         <div className=" py-8 mb-10 lg:mb-4 lg:h-[25rem] lg:w-[20rem] lg:-mt-[6rem] xl:h-[31rem] xl:w-[24rem] grid grid-cols-3 gap-4 -px-14 md:grid-cols-4 md:gap-2 lg:grid-cols-3 lg:gap-9 mx-10">
           {skills.map((skill, id) => (
@@ -90,11 +93,19 @@ export const Experience = () => {
             </div>
           ))}
         </div>
+        
         <motion.ul
          variants={FadeUp(0.5)}
          initial="hidden"
          whileInView={"visible"}
          className=" w-[100%] mx-2 md:w-[76%] md:py-4 md:mx-[6rem] lg:w-full xl:w-[85%] grid grid-cols-1 gap-6 mb-4">
+            <motion.h2
+      variants={FadeRight(0.3)}
+      initial="hidden"
+      whileInView={"visible"}
+       className="text-white text-4xl mx-auto px-20 md:mx-[6rem]  xl:text-4xl font-bold tracking-wide uppercase flex justify-start xl:mx-12 md:-mt-14 lg:text-3xl">
+        Experience
+      </motion.h2>
           {history.map((historyItem, id) => (
             <li
               key={id}

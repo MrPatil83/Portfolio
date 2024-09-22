@@ -5,6 +5,7 @@ import { FadeRight } from "../../Animation";
 import project from "../../../assets/projects/project.png";
 import selectivesystemsproject from "../../../assets/projects/selectivesystemsproject.png";
 import Risealloys from "../../../assets/projects/Risealloys.png";
+import Rajgurusteel from "../../../assets/projects/Rajgurusteel.png";
 import Steadlersandscales from "../../../assets/projects/Steadlersandscales.png";
 import Solwin from "../../../assets/projects/Solwin.png";
 import node from "../../../assets/skills/node.png"
@@ -15,6 +16,7 @@ import figma from "../../../assets/skills/figma.png";
 import mongodb from "../../../assets/skills/mongodb.png";
 import googleappscript from "../../../assets/skills/googleappscript.png";
 import css from "../../../assets/skills/css.png";
+import Next from "../../../assets/skills/Next.png";
 
 const ProjectsPage = () => {
   const projects = [
@@ -57,6 +59,17 @@ const ProjectsPage = () => {
       sourceLink: "/",
     },
     {
+      imgSrc: Rajgurusteel,
+      title: "Rajguru Steel Industry",
+      description: "Explore our innovative project with Rajguru Steel Industry. Check out our ongoing website to see our latest stainless steel railing designs and updates. Stay tuned for more!",
+      skills: [
+        mongodb,
+        Next,
+      ],
+      demoLink: "https://ss-web-ten.vercel.app/",
+      sourceLink: "/",
+    },
+    {
       imgSrc:Steadlersandscales,
       title: "Steadlers & Scales",
       description: "Explore our innovative project with Steadlers & Scales Interior Design. Check out the ongoing website to see our latest designs and updates.",
@@ -90,7 +103,7 @@ const ProjectsPage = () => {
         variants={FadeRight(0.3)}
         initial="hidden"
         whileInView={"visible"}
-        className="text-white text-4xl font-bold tracking-wide uppercase flex justify-start p-10 mx-14"
+        className="text-white text-4xl font-bold tracking-wide uppercase flex justify-start mt-28 mx-24 md:-mb-8"
         id="projects"
       >
         Projects
