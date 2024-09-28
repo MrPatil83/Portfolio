@@ -142,10 +142,10 @@ const Contact = () => {
        className="text-slate-100 mx-auto text-2xl px-[7.7rem] md:text-4xl font-bold tracking-wide uppercase flex justify-start p-10 md:mx-14" id="contact">
         Contact 
       </motion.h2>
-      <p className=" text-base mx-auto px-[3.8rem] md:text-2xl poppins-regular text-slate-300 tracking-wide md:mx-36 mt-2">Let's team up for exciting projects and opportunities!</p>
-      <p className=" text-base mx-auto px-20 md:text-2xl poppins-regular text-slate-300 tracking-wide md:mx-36 mt-2"><a href="+918356080112" ><span>Contact :</span>+918356080112</a></p>
+      <p className=" text-base mx-auto px-[2rem] md:text-2xl poppins-regular text-slate-300 tracking-wide md:mx-32 mt-2">Let's team up for exciting projects and opportunities!</p>
+      <p className=" text-base mx-auto px-20 md:text-2xl poppins-regular text-slate-300 tracking-wide md:mx-20 mt-2"><a href="+918356080112" ><span>Contact :</span>+918356080112</a></p>
 
-    <div className="card m-4 mx-20 w-[10rem] lg:mx-[14rem] md:m-3 rounded-3xl transition-transform duration-700">
+    <div className="card m-4 mx-24 w-[10rem] lg:mx-[10rem] md:m-3 rounded-3xl transition-transform duration-700">
     <span>Social</span>
     {/* github */}
     <a className="social-link" href="https://github.com/MrPatil83?tab=repositories">
