@@ -66,7 +66,7 @@ const ProjectsPage = () => {
         mongodb,
         Next,
       ],
-      demoLink: "https://ss-web-ten.vercel.app/",
+      demoLink: "https://rajgurusteel.vercel.app/",
       sourceLink: "/",
     },
     {
