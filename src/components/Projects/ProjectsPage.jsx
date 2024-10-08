@@ -79,7 +79,7 @@ const ProjectsPage = () => {
         mongodb,
         node,
       ],
-      demoLink: "https://interiorswebsite.vercel.app",
+      demoLink: "https://interiorswebsites.vercel.app",
       sourceLink: "/",
     },
     {
