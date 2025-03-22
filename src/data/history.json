@@ -1,9 +1,22 @@
 [
+  {
+    "role": "Full-Stack Developer",
+    "organisation": "Research Innovation Incubation Design Lab",
+    "startDate": "Jan, 2025",
+    "endDate": "Present",
+    "experiences": [
+      "Developed and optimized the organization's website and app infrastructure",
+      "Provided technical consultation on React Native, Airtable, and SEO strategies"
+    ],
+    "imageSrc": "history/riidl.png"
+  }
+  ,
+  
     {
-      "role": "FullStack Developer",
+      "role": "Full-Stack Developer",
       "organisation": "Imperio Railing Systems",
       "startDate": "Apr, 2024",
-      "endDate": "Present",
+      "endDate": "Jan, 2025",
       "experiences": ["Worked on Createing Website", "Reduced load times by 100%"],
       "imageSrc": "history/google.png"
     },
